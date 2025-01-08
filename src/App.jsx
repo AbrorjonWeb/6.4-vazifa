@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function App(Names) {
+function name(Names) {
   const [name, setName] = useState("");
   const [nameList, setNameList] = useState([]);
 
@@ -38,7 +38,7 @@ function App(Names) {
   );
 }
 
-const App = (agree) => {
+const agree = (agree) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -112,7 +112,7 @@ const App = (agree) => {
   );
 };
 
-function App(reversa) {
+function revrse(reversa) {
   const [text, setText] = useState("");
 
   const reverseText = (str) => {
@@ -133,7 +133,7 @@ function App(reversa) {
   );
 }
 
-function App(password) {
+function password(password) {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
@@ -157,7 +157,7 @@ function App(password) {
   );
 }
 
-function App(colors) {
+function color(colors) {
   const [bgColor, setBgColor] = useState("red");
 
   return (
@@ -172,7 +172,7 @@ function App(colors) {
   );
 }
 
-function App(malumotnoma) {
+function info(malumotnoma) {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -239,7 +239,7 @@ function App(malumotnoma) {
   );
 }
 
-function App(ovoz) {
+function ovoz(ovoz) {
   const [votes, setVotes] = useState({
     JavaScript: 0,
     Python: 0,
@@ -269,7 +269,7 @@ function App(ovoz) {
   );
 }
 
-const App = (input) => {
+const input = (input) => {
   const [inputs, setInputs] = useState([""]);
 
   const addInput = () => setInputs([...inputs, ""]);
@@ -297,7 +297,7 @@ const App = (input) => {
   );
 };
 
-const App = (kalkulyator) => {
+const math = (kalkulyator) => {
   const [num1, setNum1] = useState("");
   const [num2, setNum2] = useState("");
   const [result, setResult] = useState(null);
@@ -327,7 +327,7 @@ const App = (kalkulyator) => {
   );
 };
 
-const App = (forma) => {
+const form = (forma) => {
   const [formData, setFormData] = useState({ name: "", email: "", phone: "" });
   const [error, setError] = useState("");
 
